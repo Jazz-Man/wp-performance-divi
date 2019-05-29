@@ -1,6 +1,8 @@
 {
     "name": "jazzman/wp-performance-divi",
     "type": "wordpress-muplugin",
+    "description": "wp-performance-divi",
+    "license":"MIT",
     "config": {
         "sort-packages": true,
         "preferred-install": "dist",
