@@ -12,6 +12,7 @@ class Divi
      */
     public function __construct()
     {
+        add_filter('shortcode_disable_nested_rendering', '__return_true');
         add_action('init', [$this, 'removeActionsOnInit']);
 
         add_action('after_setup_theme', [$this, 'removeActionsAfterSetupTheme']);
